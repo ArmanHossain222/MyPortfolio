@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { PiHexagonThin } from "react-icons/pi";
+import arman1 from "../../assets/images/HexaPic.png"; // Adjust the path as necessary
 
 const HeroPic = () => {
   return (
@@ -12,7 +13,7 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center "
     >
       <img
-        src="../../public/images/HexaPic.png"
+        src={arman1}
         alt="Md Arman Hossain"
         className="max-h-[450px] w-auto"
       />
